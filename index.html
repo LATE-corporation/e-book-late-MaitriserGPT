@@ -8,9 +8,9 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f4f7fc;
+            background-color: #f8f9fa;
             text-align: center;
-            padding: 50px;
+            padding: 40px;
             color: #333;
         }
         .container {
@@ -18,53 +18,58 @@
             margin: auto;
             padding: 30px;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
-            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #0056b3;
-            font-size: 28px;
-            margin-bottom: 15px;
+            color: #003366;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
         }
         p {
             font-size: 18px;
-            line-height: 1.6;
-            color: #444;
+            line-height: 1.8;
+            color: #555;
         }
         .ebook-cover {
             width: 100%;
             max-width: 400px;
-            height: auto;
-            object-fit: cover;
-            border-radius: 10px;
+            border-radius: 15px;
             margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-in-out;
+        }
+        .ebook-cover:hover {
+            transform: scale(1.05);
         }
         .buy-button {
             display: inline-block;
-            padding: 14px 30px;
+            padding: 15px 35px;
             background-color: #ff6600;
             color: white;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
-            border-radius: 8px;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-top: 10px;
+            border-radius: 12px;
+            transition: background-color 0.3s ease, transform 0.2s;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 15px;
         }
         .buy-button:hover {
             background-color: #cc5200;
+            transform: scale(1.05);
         }
         .secure-payment {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #6c757d;
+            margin-top: 25px;
+            font-size: 16px;
+            color: #777;
+            font-style: italic;
         }
         .highlight {
             font-weight: bold;
             color: #ff6600;
+            font-size: 22px;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
